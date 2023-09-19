@@ -28,7 +28,48 @@
         .font-title {
             font-family: "Pacifico", cursive;
         }
+    
+        /* Style de base du bouton */
+       .button {
+           display: inline-block;
+            padding: 5px 5px;
+            background-color: #007bff; /* Couleur de fond du bouton */
+            color: #fff; /* Couleur du texte du bouton */
+            border: none;
+            border-radius: 5px; /* Coins arrondis */
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        /* Au survol, effet d'ombre */
+        .button:hover {
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+    
+                /* Style de base du bouton */
+       .button-self {
+           display: inline-block;
+            padding: 10px 10px;
+            background-color: #000000; /* Couleur de fond du bouton */
+            color: #fff; /* Couleur du texte du bouton */
+            border: none;
+            border-radius: 0px; /* Coins arrondis */
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        /* Au survol, effet d'ombre */
+        .button-self:hover {
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
     </style>
+    
 </head>
 <body>
 
@@ -38,9 +79,9 @@
 
 <p>Vous avez la possibilité de reporter cette mise à jour jusqu'à cinq fois.</p>
 
-<p>Vous pouvez lancer ces mises à jour à tout moment dans l'application <span class="text-shadow">Self Service.</span></p>
+<p>Vous pouvez lancer ces mises à jour à tout moment dans l'application <button class="button-self">Canal+ Self Service</button></p>
 
-<p>Avant de cliquer sur le bouton <span class="font-title">Redémarrer</span>, <span class="font-bold">assurez-vous de sauvegarder votre travail et de fermer toutes vos applications.</span></p>
+<p><span class="font-bold">Avant de cliquer sur le bouton <button class="button">Redémarrer</button>,assurez-vous de sauvegarder votre travail et de fermer toutes vos applications.</span></p>
 
 </body>
 </html>
