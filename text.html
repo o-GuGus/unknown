@@ -3,15 +3,16 @@
 <head>
     <style>
         body {
-            font-family: Arial, sans-serif; /* Changer la police ici */
-            font-size: 16px; /* Set the font size to 16 pixels (adjust as needed) */
+            color: #000000; /* Changer la couleur du titre */
+            font-family: "Georgia", serif;
         }
         h1 {
+            font-family: Arial, sans-serif; /* Changer la police ici */
+            color: #000000; /* Changer la couleur du titre */
             font-weight: bold; /* Ajouter du gras au titre */
-            color: #333; /* Changer la couleur du titre */
         }
         .warning {
-            color: #ff0000;
+            color: #ffa600;
             font-weight: bold;
             font-style: italic; /* Changer le style de police du texte d'avertissement */
         }
@@ -20,22 +21,86 @@
         }
         .icon {
             vertical-align: middle;
-            width: 20px;
-            height: 20px;
+            width: 50px;
+            height: 50px;
         }
+        /* Texte en Gras */
+        .font-bold {
+            font-weight: bold;
+        }
+
+        /* Texte en Italique */
+        .font-italic {
+            font-style: italic;
+        }
+
+        /* Texte avec Soulignement */
+        .text-underline {
+            text-decoration: underline;
+        }
+
+        /* Texte en Majuscules */
+        .text-uppercase {
+            text-transform: uppercase;
+        }
+
+        /* Texte en Couleur */
+        .text-red {
+            color: #ff0000; /* Changer la couleur à votre convenance */
+        }
+
+        /* Texte avec Ombre Portée */
+        .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Texte en Police de Code (monospace) */
+        .font-code {
+            font-family: "Courier New", monospace;
+        }
+
+        /* Texte en Police Manuscrite */
+        .font-handwriting {
+            font-family: "Comic Sans MS", cursive;
+        }
+
+        /* Texte en Police de Titre (fantaisie) */
+        .font-title {
+            font-family: "Pacifico", cursive;
+        }
+
+        /* Texte en Police de Sérif (plus formel) */
+        .font-serif {
+            font-family: "Georgia", serif;
+        }
+
     </style>
 </head>
 <body>
 
-<h1>Mise à jour <span class="warning">[ SECURITE ]</span></h1>
+<h1>Mise à jour <span class="warning">SECURITE</span></h1>
 
 <p>La mise à jour peut prendre un certain temps et entraînera un redémarrage de votre ordinateur.</p>
 
 <p>Vous avez la possibilité de reporter cette mise à jour jusqu'à cinq fois.</p>
 
-<p>Avant de cliquer sur le bouton <span class="bold">Redémarrer</span>, assurez-vous de sauvegarder votre travail et de fermer toutes vos applications.</p>
+<p>Vous pouvez lancer ces mises à jour à tout moment dans l'application <span class="text-shadow">Self Service.</span></p>
+
+<p>Avant de cliquer sur le bouton <span class="font-title">Redémarrer</span>, <span class="bold">assurez-vous de sauvegarder votre travail et de fermer toutes vos applications.</span></p>
 
 <p><img class="icon" src="https://github.com/o-GuGus/unknown/blob/master/warning.png?raw=true" alt="Icône d'avertissement"></p>
+
+<p class="font-bold">Texte en gras.</p>
+<p class="font-italic">Texte en italique.</p>
+<p class="text-underline">Texte avec soulignement.</p>
+<p class="text-uppercase">Texte en majuscules.</p>
+<p class="text-red">Texte en couleur rouge.</p>
+<p class="text-shadow">Texte avec ombre portée.</p>
+<p class="font-code">Texte en police de code (monospace).</p>
+<p class="font-handwriting">Texte en police manuscrite.</p>
+<p class="font-title">Texte en police de titre (fantaisie).</p>
+<p class="font-serif">Texte en police de sérif (plus formel).</p>
+
 
 </body>
 </html>
