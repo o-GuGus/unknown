@@ -2,58 +2,79 @@
 <html lang="fr">
 <head>
     <style>
-        body {
-            font-family: "Georgia", serif;
-            color: #000000;
-        }
-        h1 {
-            font-family: Arial, sans-serif;
-            font-weight: bold;
-            color: #000000;
-        }
-        .warning {
-            color: #ffa600;
-            font-weight: bold;
-            font-style: italic;
-        }
-        /* Texte en Gras */
-        .font-bold {
-            font-weight: bold;
-        }
-        /* Texte avec Ombre Portée */
-        .text-shadow {
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
-        /* Texte en Police de Titre (fantaisie) */
-        .font-title {
-            font-family: "Pacifico", cursive;
-        }
-        /* Style de base du bouton */
-       .button {
-           display: inline-block;
-            padding: 5px 5px;
-            background-color: #ffffff; /* Couleur de fond du bouton */
-            color: #000000; /* Couleur du texte du bouton */
-            border: none;
-            border-radius: 5px; /* Coins arrondis */
-            cursor: pointer;
-            text-align: center;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        /* Style de base du bouton */
-       .button-self {
-            display: inline-block;
-            padding: 10px 10px;
-            background-color: #000000; /* Couleur de fond du bouton */
-            color: #ffffff; /* Couleur du texte du bouton */
-            border: none;
-            border-radius: 0px; /* Coins arrondis */
-            cursor: pointer;
-            text-align: center;
-            text-decoration: none;
-            font-weight: bold;
-        }
+/* Début du style pour le corps de la page */
+body {
+    font-family: "Georgia", serif; /* Utilise la police Georgia pour le texte du corps */
+    color: #000000; /* Définit la couleur du texte en noir */
+}
+/* Fin du style pour le corps de la page */
+
+/* Début du style pour les titres h1 */
+h1 {
+    font-family: Arial, sans-serif; /* Utilise la police Arial pour les titres h1 */
+    font-weight: bold; /* Met le texte en gras */
+    color: #000000; /* Définit la couleur du texte en noir */
+}
+/* Fin du style pour les titres h1 */
+
+/* Début du style pour le texte d'avertissement avec la classe "warning" */
+.warning {
+    color: #ffa600; /* Définit la couleur du texte d'avertissement en orange */
+    font-weight: bold; /* Met le texte en gras */
+    font-style: italic; /* Met le texte en italique */
+}
+/* Fin du style pour le texte d'avertissement */
+
+/* Début du style pour le texte en gras avec la classe "font-bold" */
+.font-bold {
+    font-weight: bold; /* Met le texte en gras */
+}
+/* Fin du style pour le texte en gras */
+
+/* Début du style pour le texte avec ombre portée avec la classe "text-shadow" */
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajoute une ombre portée au texte */
+}
+/* Fin du style pour le texte avec ombre portée */
+
+/* Début du style pour le texte avec la police fantaisie "Pacifico" avec la classe "font-title" */
+.font-title {
+    font-family: "Pacifico", cursive; /* Utilise la police "Pacifico" pour le texte */
+}
+/* Fin du style pour le texte avec la police "Pacifico" */
+
+/* Début du style pour les boutons avec la classe "button" */
+.button {
+    display: inline-block; /* Affiche le bouton en tant qu'élément en ligne avec du contenu en ligne */
+    padding: 5px 5px; /* Ajoute un espace de remplissage autour du texte du bouton */
+    background-color: #ffffff; /* Définit la couleur de fond du bouton en blanc */
+    color: #000000; /* Définit la couleur du texte du bouton en noir */
+    border: 2px solid #000000; /* Ajoute un contour noir autour du bouton */
+    /* border: none;  Supprime la bordure du bouton */
+    border-radius: 5px; /* Arrondit les coins du bouton */
+    cursor: pointer; /* Change le curseur en une main au survol du bouton */
+    text-align: center; /* Centre le texte à l'intérieur du bouton */
+    text-decoration: none; /* Supprime toute décoration de texte */
+    font-weight: bold; /* Met le texte en gras */
+}
+/* Fin du style pour les boutons avec la classe "button" */
+
+/* Début du style pour le bouton spécial avec la classe "button-self" */
+.button-self {
+    display: inline-block; /* Affiche le bouton en tant qu'élément en ligne avec du contenu en ligne */
+    padding: 10px 10px; /* Ajoute un espace de remplissage autour du texte du bouton */
+    background-color: #000000; /* Définit la couleur de fond du bouton en noir */
+    color: #ffffff; /* Définit la couleur du texte du bouton en blanc */
+    border: 2px solid #ffffff; /* Ajoute un contour noir autour du bouton */
+
+    border-radius: 0px; /* Supprime les coins arrondis du bouton */
+    cursor: pointer; /* Change le curseur en une main au survol du bouton */
+    text-align: center; /* Centre le texte à l'intérieur du bouton */
+    text-decoration: none; /* Supprime toute décoration de texte */
+    font-weight: bold; /* Met le texte en gras */
+}
+/* Fin du style pour le bouton spécial avec la classe "button-self" */
+
     </style>
     
 </head>
